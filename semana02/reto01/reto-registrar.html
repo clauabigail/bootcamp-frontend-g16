@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto : Formulario de registro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <!-- Todo: Crear un formulario para crear una cuenta de usuario con los campos 
+        nombres, apellidos, email, telefono, password, confirmar password(caja de texto), 
+        si gustan pueden agregar mas campos, y un boton llamado registrarse. 
+        Opcionalmente pueden usar el framework PICO que vimos en clase. -->
+<main class="container">
+    <h1>Crea una cuenta</h1>
+    <br>
+    <h4> Ingresa la siguiente información para registrarte.</h4>
+    
+    <form>
+            <table border="0">
+                  <tr>
+                        <th>Nombres:</th>
+                        <th>Apellido Paterno:</th>
+                  </tr>
+                  <tr>
+                        <td><input type="text" placeholder="Nombres" name="nombres"></td>
+                        <td><input type="text" placeholder="Apellidos" name="apellidos"></td>
+                  </tr>       
+            </table>
+
+            <label>Edad:</label>
+                  <input type="number" maxlength="2" placeholder="Ejm. 19" name="edad" >
+            <label>Fecha de nacimiento:</label>
+                  <input type="date" placeholder="mm/dd/yyy" name="fechanacimiento" >
+            <label>Género:</label>
+                 <select name="genero" id="genero">
+                        <option value="">Selecciona tu género</option>
+                        <option value="f">Femenino</option>
+                        <option value="m">Masculino</option>
+                 </select>
+            <label>Email:</label>
+                  <input type="email" placeholder="Correo Ej. clau@gmail.com" name="email" >
+            <label>Dirección:</label>
+                  <input type="text" placeholder="Dirección" name="direccion1" >
+                  <input type="text" placeholder="Dirección linea 2" name="direccion2" >
+
+            <label>Telefono:</label>
+                  <input type="tel" name="Telefono" required placeholder="+51 999999999" pattern="\+[0-9]{2} [0-9]{9}">
+            <label>Codigo postal:</label>
+                  <input type="number" placeholder="Ej. 14001" name="codpostal" >
+            <label>Ciudad:</label>
+                  <input type="text" placeholder="Ej. Tacna" name="ciudad" >
+            <label>Subir firma:</label>
+                  <input type="file" accept=".jpg, .jpeg"/>  
+             <label>Password:</label>
+              <input type="password" placeholder="password">
+
+            <label>Confirmar Password:</label>
+                  <input type="password" placeholder="password">
+            <label>
+                  <input type="checkbox" name="accept" value="accept" />
+                  Acepto los terminos, condiciones y politicas
+            </label>
+        
+            <input type="submit" placeholder="Registrarse" value="Registrarse">
+            <input type="reset" value="Limpiar">
+            <label >Ya tienes una cuenta? <a href="http://">Accede desde aquí</a></label>
+    </form>
+
+</main>
+    
+
+</body>
+</html>
