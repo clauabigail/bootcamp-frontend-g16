@@ -30,20 +30,16 @@ main {
   background-image: url(./images/image-product-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-
   border-radius: 0 14px 14px 0;
-  
   padding: 30px;
 }
 
 .content {
   background-color: hsl(0, 0%, 100%);
   font-size: 16px;
-  /* width: 50%; */
   width: 400px;
   padding: 50px;
   text-align: justify;
-
   border-radius: 14px 0 0 14px;
   
 }
@@ -80,8 +76,6 @@ main {
   font-weight: 700;
   color: hsl(158, 36%, 37%);
 }
-
-
 
 .content button {
   border: 0;
