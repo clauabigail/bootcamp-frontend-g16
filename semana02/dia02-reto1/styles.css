@@ -20,7 +20,7 @@ body {
 
 main {
   /* background-color: red; */
-  width: 650px;
+  width: 700px;
   min-height: 400px;
 
   display: flex;
@@ -41,7 +41,7 @@ main {
 .content {
   background-color: hsl(0, 0%, 100%);
   /* width: 50%; */
-  width: 300px;
+  width: 350px;
   padding: 28px;
 
   border-radius: 0 14px 14px 0;
