@@ -49,6 +49,12 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  /*color: red;*/
+  font-weight: var(--font-weight-bold);
+  text-decoration: underline;
+}
+
 img {
   /* TODO: RWD para imágenes */
   max-width: 100%;
