@@ -1,0 +1,50 @@
+.hero{
+    padding: 10rem;
+}
+.hero-slide{
+    background-image: url(https://codescandy.com/coach/bootstrap-5/assets/images/hero-slide.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+}
+a{
+    text-decoration: none;
+    color: hsl(250, 3%, 60%);
+        
+}
+a:hover {
+    color: white;
+  }
+ul{
+    text-align: left;
+}
+
+li{
+    list-style: none;
+   
+}
+
+
+.text-body-secondary{
+    color: white;
+}
+footer{
+    background-color: hsl(251, 37%, 19%);
+    padding: 3rem;
+}
+h5{
+    text-align: justify;
+    color: white;
+}
+.email{
+    font-size: small;
+    border-radius: 10px;
+    height: 3rem;
+}
+.btn{
+    margin-top: 1rem;
+}
+#form-subscribe{
+    flex-direction: column;
+}
