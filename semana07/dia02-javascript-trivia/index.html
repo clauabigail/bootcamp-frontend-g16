@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trivia</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <!--
@@ -15,6 +16,8 @@
     <h1 class="text-xl font-bold text-gray-900 text-center mb-4">
       Trivia de Javascript
     </h1>
+
+    <div id="questions-and-results"></div>
 
     <section class="flex flex-col px-4 py-6 mb-3 border rounded-lg shadow">
       <p class="text-md font-medium text-gray-900 mb-4">¿Pregunta 1?</p>
@@ -30,7 +33,7 @@
       </div>
     </section>
 
-    <section class="flex flex-col px-4 py-6 mb-3 border rounded-lg shadow">
+    <section class="flex flex-col px-4 py-6 mb-3 border rounded-lg shadow hidden">
       <p class="text-md font-medium text-gray-900 mb-4">¿Pregunta 2?</p>
 
       <div class="flex flex-col items-start mb-10">
@@ -44,7 +47,7 @@
       </div>
     </section>
 
-    <section class="flex flex-col px-4 py-6 mb-3 border rounded-lg shadow">
+    <section class="flex flex-col px-4 py-6 mb-3 border rounded-lg shadow hidden">
       <p class="text-md font-medium text-gray-900 mb-4">¿Pregunta 3?</p>
 
       <div class="flex flex-col items-start mb-10">
@@ -58,7 +61,7 @@
       </div>
     </section>
 
-    <section class="flex flex-col px-4 py-6 text-center bg-green-600 border rounded-lg shadow ">
+    <section class="flex flex-col px-4 py-6 text-center bg-green-600 border rounded-lg shadow hidden">
       <p class="text-4xl font-medium text-gray-900 mb-4 text-white">¡GANASTE! o ¡PERDISTE!</p>
       
       <p class="text-md font-medium text-gray-900 mb-4 text-white">Respondiste 2 de 3</p>
